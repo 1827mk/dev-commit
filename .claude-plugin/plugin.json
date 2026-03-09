@@ -8,6 +8,5 @@
   },
   "repository": "https://github.com/1827mk/dev-commit",
   "license": "MIT",
-  "keywords": ["commit", "git", "conventional-commit", "workflow"],
-  "skills": ["skills/"]
+  "keywords": ["commit", "git", "conventional-commit", "workflow"]
 }

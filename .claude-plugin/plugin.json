@@ -1,0 +1,7 @@
+{
+  "name": "dev-commit",
+  "version": "1.0.0",
+  "description": "Conventional commit message generator",
+  "author": "tanaphat.oiu",
+  "skills": ["skills/"]
+}

@@ -1,7 +1,13 @@
 {
   "name": "dev-commit",
   "version": "1.0.0",
-  "description": "Conventional commit message generator",
-  "author": "tanaphat.oiu",
+  "description": "Generate conventional commit messages from staged changes",
+  "author": {
+    "name": "1827mk",
+    "url": "https://github.com/1827mk"
+  },
+  "repository": "https://github.com/1827mk/dev-commit",
+  "license": "MIT",
+  "keywords": ["commit", "git", "conventional-commit", "workflow"],
   "skills": ["skills/"]
 }

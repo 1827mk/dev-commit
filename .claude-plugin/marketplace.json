@@ -1,0 +1,13 @@
+{
+  "name": "dev-commit",
+  "plugins": [
+    {
+      "name": "dev-commit",
+      "version": "1.0.0",
+      "description": "Generate conventional commit messages from staged changes",
+      "author": "1827mk",
+      "repository": "https://github.com/1827mk/dev-commit",
+      "path": "."
+    }
+  ]
+}

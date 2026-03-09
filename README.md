@@ -4,6 +4,18 @@ Claude Code plugin for generating conventional commit messages from staged chang
 
 ## Installation
 
+### From Marketplace (Recommended)
+
+```bash
+# Add the marketplace
+/plugin marketplace add 1827mk/dev-commit
+
+# Install the plugin
+/plugin install dev-commit
+```
+
+### From Local Directory
+
 ```bash
 claude --plugin-dir /path/to/dev-commit
 ```

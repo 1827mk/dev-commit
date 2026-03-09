@@ -1,30 +1,23 @@
 # dev-commit
 
-Claude Code plugin for generating conventional commit messages from staged changes.
+Generate conventional commit messages from staged changes.
+
+**Silent mode** - outputs only the commit hash.
 
 ## Installation
 
-### From Marketplace (Recommended)
-
 ```bash
-# Add the marketplace
 /plugin marketplace add 1827mk/dev-commit
-
-# Install the plugin
 /plugin install dev-commit
-```
-
-### From Local Directory
-
-```bash
-claude --plugin-dir /path/to/dev-commit
 ```
 
 ## Usage
 
 1. Stage your changes: `git add <files>`
-2. Say `dev-commit` or `commit` in Claude Code
-3. Done! The commit is created automatically
+2. Type: `commit`
+3. Output: `commit a1b2c3d`
+
+That's it.
 
 ## Commit Types
 
@@ -40,16 +33,6 @@ claude --plugin-dir /path/to/dev-commit
 | `perf` | Performance |
 
 Append `!` for breaking changes (e.g., `feat!`, `fix!`)
-
-## Message Format
-
-```
-[<type>]: <description>
-```
-
-- Lowercase, imperative mood
-- No trailing period
-- Max 72 characters
 
 ## License
 

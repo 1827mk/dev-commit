@@ -1,9 +1,9 @@
 ---
 name: dev-commit
 description: >
-  This skill should be used when the user says "dev-commit", "/dev-commit",
-  "commit", or "git commit". Generate conventional commit message from staged
-  changes and commit immediately. No push. No confirmation.
+  This skill should be used when the user says "commit". Generate conventional
+  commit message from staged changes and commit immediately. Silent mode - only
+  output commit hash.
 ---
 
 ## Commit Types
@@ -20,7 +20,14 @@ Append `!` for breaking changes → `feat!` `fix!`
 
 ## Workflow
 
-1. Run `git diff --cached` to inspect staged changes
-2. Generate appropriate commit message
+1. Run `git diff --cached` silently
+2. Generate commit message
 3. Run `git commit -m "[<type>]: <description>"`
-4. Done - no push, no confirmation
+4. Output only: `commit <hash>`
+
+## Output Format
+
+Only output the commit hash, nothing else:
+```
+commit a1b2c3d
+```

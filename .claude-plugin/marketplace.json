@@ -1,13 +1,21 @@
 {
-  "name": "dev-commit",
+  "name": "dev-commit-marketplace",
+  "owner": {
+    "name": "1827mk",
+    "email": "1827mk@users.noreply.github.com"
+  },
   "plugins": [
     {
       "name": "dev-commit",
+      "source": "./",
       "version": "1.0.0",
       "description": "Generate conventional commit messages from staged changes",
-      "author": "1827mk",
+      "author": {
+        "name": "1827mk"
+      },
       "repository": "https://github.com/1827mk/dev-commit",
-      "path": "."
+      "license": "MIT",
+      "keywords": ["commit", "git", "conventional-commit"]
     }
   ]
 }
